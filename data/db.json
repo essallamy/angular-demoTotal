@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Smart Phone",
+      "price": 600,
+      "checked": true
+    },
+    {
+      "id": 2,
+      "name": "Smart Phone",
+      "price": 600,
+      "checked": true
+    },
+    {
+      "id": 2,
+      "name": "Smart Phone",
+      "price": 600,
+      "checked": true
+    },
+    {
+      "id": 2,
+      "name": "Smart Phone",
+      "price": 600,
+      "checked": true
+    },
+    {
+      "id": 2,
+      "name": "Smart Phone",
+      "price": 600,
+      "checked": true
+    },
+    {
+      "id": 2,
+      "name": "Smart Phone",
+      "price": 600,
+      "checked": true
+    },
+    {
+      "id": 2,
+      "name": "Smart Phone",
+      "price": 600,
+      "checked": true
+    },
+    {
+      "id": 3,
+      "name": "tzert",
+      "price": "573",
+      "checked": false
+    },
+    {
+      "name": "TYUIO",
+      "price": "034567",
+      "checked": false,
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "opAZ",
+      "price": "1904",
+      "checked": false
+    },
+    {
+      "name": "java",
+      "price": "1234567",
+      "checked": true,
+      "id": 6
+    }
+  ]
+}
