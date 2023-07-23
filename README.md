@@ -15,5 +15,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 <h3>Compte rendu</h3>
 <img src="captures/captur1.png">
 <img src="captures/captur2.png">
-<img src="captures/captur3.png">
+
+<img src="captures/captur4.png">
 
