@@ -102,7 +102,7 @@ this.ps.searchProduct(this.keyword,this.currentPage,this.pageSize).subscribe({
   }
 
   handelEdit(product: Product) {
-this.router.navigateByUrl(`/editProduct/${product.id}`)
+this.router.navigateByUrl(`/admin/editProduct/${product.id}`)
   }
 
 

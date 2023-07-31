@@ -29,7 +29,7 @@
               <i [class]="product.checked?'btn btn-success ms-1':'btn btn-outline-success ms-1'"></i>
                     </button>
           </td>
-          <td>
+          <td *ngIf="appState.authState.roles.includes('ADMIN')">
             <button (click)="handelDelete(product)" class="btn btn-outline-danger">
               <i class="bi bi-trash"></i>
             </button>

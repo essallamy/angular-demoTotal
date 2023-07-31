@@ -1,0 +1,27 @@
+
+
+<div class="card">
+  <style>
+    body {background-color: powderblue;}
+
+  </style>
+  <body>
+  <div class="card-header" style="color:blue;">Authentication</div>
+  </body>
+  <div class="alert alert-danger" *ngIf="errorMessage">
+    {{errorMessage}}
+  </div>
+  <div class="card-body">
+    <form [formGroup]="formLogin" (ngSubmit)="handeleLogin()">
+      <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input type="text" class="form-control" formControlName="username">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="text" class="form-control" formControlName="password">
+      </div>
+      <button [disabled]="formLogin.invalid" class="btn btn-success">Save</button>
+    </form>
+  </div>
+</div>

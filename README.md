@@ -12,9 +12,18 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 
 
-<h3>Compte rendu</h3>
-<img src="captures/captur1.png">
-<img src="captures/captur2.png">
+<h3>scren des interfaces de l'application</h3>
 
-<img src="captures/captur4.png">
+<img src="captures/img.png">
+<img src="captures/img_5.png">
+<img src="captures/img_1.png">
+<h5>add new produit</h5>
+<img src="captures/img_2.png">
+<h5>listes des produits</h5>
+<img src="captures/img_3.png">
+<h5>edit produit</h5>
+<img src="captures/img_4.png">
+<h5>action non authorizer</h5>
+<img src="captures/img_6.png">
+<img src="captures/img_7.png">
 

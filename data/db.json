@@ -1,8 +1,35 @@
 {
+  "user": [
+    {
+      "id": "user1",
+      "password": "31233",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEyMzQ1Njc4OTAsIm5hbWUiOiJNT0hBIEVMQVNSSSIsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NDIwMC9sb2dpbiIsImV4cGVyIjoiMTUxNjIzOTAyMiIsImlhdCI6MTUxNjIzOTAyMiwicm9sZXMiOlsiVVNFUiJdfQ.vKqW_061bTZt_p97dvid0hODc1Q8_jTnrGcg4mPtzOg"
+    },
+    {
+      "id": "user2",
+      "password": "31233",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMiIsIm5hbWUiOiJNT0hBIEVMQVNSSSIsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NDIwMC9sb2dpbiIsImV4cGVyIjoiMTUxNjIzOTAyMiIsImlhdCI6MTUxNjIzOTAyMiwicm9sZXMiOlsiVVNFUiJdfQ.3pU1Iatag4qa2COeJloKGB88Ly5LnnJEEjNRzFJ8JOw"
+    },
+    {
+      "id": "admin",
+      "password": "31233",
+      "roles": [
+        "ADMIN",
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsIm5hbWUiOiJNT0hBIEVMQVNSSSIsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NDIwMC9sb2dpbiIsImV4cGVyIjoiMTUxNjIzOTAyMiIsImlhdCI6MTUxNjIzOTAyMiwicm9sZXMiOlsiVVNFUiIsIkFETUlOIl19.Z8TepHrA2J2_kFuOofUfHlEAQyvkKFkJk2o6l_obe0M"
+    }
+  ],
   "products": [
     {
       "id": 2,
-      "name": "Smart Phone",
+      "name": "Smart PhoneZZ",
       "price": 600,
       "checked": true
     },
@@ -53,18 +80,6 @@
       "price": "034567",
       "checked": false,
       "id": 4
-    },
-    {
-      "id": 5,
-      "name": "opAZ",
-      "price": "1904",
-      "checked": false
-    },
-    {
-      "name": "java",
-      "price": "1234567",
-      "checked": true,
-      "id": 6
     }
   ]
 }
